@@ -5,6 +5,22 @@ Breadcrumbs::for('dashboard', function ($trail) {
     $trail->push(__('dashboard.title'), route('dashboard'));
 });
 
+//Home -> department
+Breadcrumbs::for('departments.index', function ($trail) {
+    $trail->parent('dashboard');
+    $trail->push(__('department.breadcrumb.index'), route('departments.index'));
+});
+Breadcrumbs::for('departments.create', function ($trail) {
+    $trail->parent('departments.index');
+    $trail->push(__('department.breadcrumb.create'), route('departments.create'));
+});
+
+Breadcrumbs::for('departments.edit', function ($trail) {
+    $trail->parent('departments.index');
+    $trail->push(__('department.breadcrumb.edit'), route('departments.edit', '$department->id'));
+});
+
+
 // Home > User
 Breadcrumbs::for('users.index', function ($trail) {
     $trail->parent('dashboard');

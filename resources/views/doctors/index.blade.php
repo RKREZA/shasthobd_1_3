@@ -1,15 +1,14 @@
 @extends('layouts.master')
-@section('page_title')
-    {{__('user.index.title')}}
-@endsection
-@section('content') 
 
-			
-	<div class="page-breadcrumb">
+@section('page_title')
+    {{__('doctor.index.title')}}
+@endsection
+
+@section('content')
+
+    <div class="page-breadcrumb">
         {{ Breadcrumbs::render('users.index') }}
     </div>
-    
-
 
     <div class="card">
 
@@ -17,13 +16,13 @@
     		<div class="row">
 		    	<div class="col-md-6 col-sm-12">
 		    		<h2 class="card-title">
-				        <i data-feather="users" class="feather-icon"></i> {{__('user.index.title')}}
+				        <i data-feather="users" class="feather-icon"></i> {{__('doctor.index.title')}}
 				    </h2>
 		    	</div>
 		    	<div class="col-md-6 col-sm-12">
 		    		
-		    		@can('user-create')
-		    			<a href="{{ route('users.create') }}" class="btn btn-outline-primary btn-rounded float-right"><i data-feather="plus" class="feather-icon"></i> {{__('user.form.add-button')}}</a>
+		    		@can('doctor-create')
+		    			<a href="{{ route('doctors.create') }}" class="btn btn-outline-primary btn-rounded float-right"><i data-feather="plus" class="feather-icon"></i> {{__('doctor.form.add-button')}}</a>
 		    		@endcan
 		    	</div>
 		    </div>
@@ -34,16 +33,14 @@
 				<thead>
 					<tr>
 						<th class="">{{__('#')}}</th>
-						<th class="">{{__('user.form.image')}}</th>
-						<th class="">{{__('user.form.name')}}</th>
-						<th class="">{{__('user.form.email')}}</th>
-						<th class="">{{__('user.form.mobile')}}</th>
-						<th class="">{{__('user.form.role')}}</th>
-						{{-- <th class="">{{__('user.form.user-since')}}</th> --}}
-						{{-- <th class="">{{__('user.form.last-update')}}</th> --}}
+						<th class="">{{__('doctor.form.image')}}</th>
+						<th class="">{{__('doctor.form.name')}}</th>
+						<th class="">{{__('doctor.form.email')}}</th>
+						<th class="">{{__('doctor.form.description')}}</th>
+						<th class="">{{__('doctor.form.department')}}</th>
 
-						@if(Gate::check('user-edit') || Gate::check('user-delete'))
-							<th class="">{{__('user.form.action')}}</th>
+						@if(Gate::check('doctor-edit') || Gate::check('doctor-delete'))
+							<th class="">{{__('doctor.form.action')}}</th>
 						@endif 
 					</tr>
 				</thead>
@@ -54,7 +51,6 @@
 				
 			</table>
 
-
 			<script>
 				$(function() {
 
@@ -64,16 +60,16 @@
 						responsive 	: false,
 						serverSide	: true,
 						order:       [[0, 'desc' ]],
-						ajax 		: '{{ route('users.index') }}',
+						ajax 		: '{{ route('doctors.index') }}',
 						columns			: [
 								{ data: 'DT_RowIndex', name: 'DT_RowIndex' },
 						        { data: 'image', name: 'image' },
 						        { data: 'name', name: 'name' },
 						        { data: 'email', name: 'email' },
-						        { data: 'mobile', name: 'mobile' },
+						        { data: 'description', name: 'description' },
 						        { data: 'role', name: 'role' },						        
 
-								@if(Gate::check('user-edit') || Gate::check('user-delete'))
+								@if(Gate::check('doctor-edit') || Gate::check('doctor-delete'))
 									{ data: 'action', name: 'action', orderable: false, searchable: false}
 								@endif 
 						    ],
@@ -84,14 +80,12 @@
 					});
 				});
 		    </script>
+
+
 	    </div>
     </div>
-	
 
 @endsection
-
-
-
 
 @push('scripts')
 	<script type="text/javascript">

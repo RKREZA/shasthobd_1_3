@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="content-language" content="{{ Session::get('locale') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/sb-fav.png') }}">
 
     <title>@yield('page_title')</title>
 
@@ -69,7 +69,7 @@
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
     <div class="preloader">
-        <img src="{{ asset('assets/images/logo.png') }}" alt="homepage" class="preload_img" />
+        <img src="{{ asset('assets/images/sb-logo.png') }}" alt="homepage" class="preload_img" />
     </div>
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->

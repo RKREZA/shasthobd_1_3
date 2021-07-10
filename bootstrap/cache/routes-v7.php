@@ -475,7 +475,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::spvNfNWRWvNio8eq',
+            '_route' => 'generated::u8NVhVo95VqpnVc7',
           ),
           1 => NULL,
           2 => 
@@ -492,7 +492,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::WaWFxB3nEplhjXeV',
+            '_route' => 'generated::ZTJOx16Lp48n8JKJ',
           ),
           1 => NULL,
           2 => 
@@ -511,7 +511,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::7QoSetr2yZPrTjEf',
+            '_route' => 'generated::3jCGCgnTMrcZxwBC',
           ),
           1 => NULL,
           2 => 
@@ -531,7 +531,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::0yOjkR0YXrcYX6Sg',
+            '_route' => 'generated::b7hVlCQvkX4OYlqc',
           ),
           1 => NULL,
           2 => 
@@ -548,7 +548,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::2hB2Q7PKATXP8JX4',
+            '_route' => 'generated::7tMWKRfJykbc5wc1',
           ),
           1 => NULL,
           2 => 
@@ -769,7 +769,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ghbwt8XuTNanI3fv',
+            '_route' => 'generated::MuqpGftuA1xcbxcy',
           ),
           1 => NULL,
           2 => 
@@ -789,7 +789,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::vzA38qOpSzO8Aj6o',
+            '_route' => 'generated::014d0w1y3yXKf2IK',
           ),
           1 => NULL,
           2 => 
@@ -905,6 +905,162 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'profile.update',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/departments/index' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'departments.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/departments/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'departments.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/departments/store' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'departments.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/departments/destroy' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'departments.destroy',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/doctors/index' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctors.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/doctors/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctors.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/doctors/store' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctors.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/setting/doctors/destroy' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctors.destroy',
           ),
           1 => NULL,
           2 => 
@@ -1174,7 +1330,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/oauth/(?|tokens/([^/]++)(*:32)|clients/([^/]++)(?|(*:58))|personal\\-access\\-tokens/([^/]++)(*:99))|/setlocale/([^/]++)(*:126)|/admin/setting/(?|users/(?|edit/([^/]++)(*:174)|update/([^/]++)(*:197))|roles/(?|edit/([^/]++)(*:228)|update/([^/]++)(*:251))|permissions/(?|edit/([^/]++)(*:288)|update/([^/]++)(*:311))))/?$}sDu',
+      0 => '{^(?|/oauth/(?|tokens/([^/]++)(*:32)|clients/([^/]++)(?|(*:58))|personal\\-access\\-tokens/([^/]++)(*:99))|/setlocale/([^/]++)(*:126)|/admin/setting/(?|d(?|epartments/(?|edit/([^/]++)(*:183)|update/([^/]++)(*:206))|octors/(?|edit/([^/]++)(*:238)|update/([^/]++)(*:261)))|users/(?|edit/([^/]++)(*:293)|update/([^/]++)(*:316))|roles/(?|edit/([^/]++)(*:347)|update/([^/]++)(*:370))|permissions/(?|edit/([^/]++)(*:407)|update/([^/]++)(*:430))))/?$}sDu',
     ),
     3 => 
     array (
@@ -1286,7 +1442,97 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      174 => 
+      183 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'departments.edit',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      206 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'departments.update',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      238 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctors.edit',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      261 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctors.update',
+          ),
+          1 => 
+          array (
+            0 => 'id',
+          ),
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      293 => 
       array (
         0 => 
         array (
@@ -1309,7 +1555,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      197 => 
+      316 => 
       array (
         0 => 
         array (
@@ -1331,7 +1577,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      228 => 
+      347 => 
       array (
         0 => 
         array (
@@ -1354,7 +1600,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      251 => 
+      370 => 
       array (
         0 => 
         array (
@@ -1376,7 +1622,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      288 => 
+      407 => 
       array (
         0 => 
         array (
@@ -1399,7 +1645,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      311 => 
+      430 => 
       array (
         0 => 
         array (
@@ -2255,7 +2501,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::spvNfNWRWvNio8eq' => 
+    'generated::u8NVhVo95VqpnVc7' => 
     array (
       'methods' => 
       array (
@@ -2277,7 +2523,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::spvNfNWRWvNio8eq',
+        'as' => 'generated::u8NVhVo95VqpnVc7',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2292,7 +2538,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::WaWFxB3nEplhjXeV' => 
+    'generated::ZTJOx16Lp48n8JKJ' => 
     array (
       'methods' => 
       array (
@@ -2313,7 +2559,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::WaWFxB3nEplhjXeV',
+        'as' => 'generated::ZTJOx16Lp48n8JKJ',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2328,7 +2574,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::7QoSetr2yZPrTjEf' => 
+    'generated::3jCGCgnTMrcZxwBC' => 
     array (
       'methods' => 
       array (
@@ -2350,7 +2596,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::7QoSetr2yZPrTjEf',
+        'as' => 'generated::3jCGCgnTMrcZxwBC',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2365,7 +2611,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::0yOjkR0YXrcYX6Sg' => 
+    'generated::b7hVlCQvkX4OYlqc' => 
     array (
       'methods' => 
       array (
@@ -2387,7 +2633,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::0yOjkR0YXrcYX6Sg',
+        'as' => 'generated::b7hVlCQvkX4OYlqc',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2402,7 +2648,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::2hB2Q7PKATXP8JX4' => 
+    'generated::7tMWKRfJykbc5wc1' => 
     array (
       'methods' => 
       array (
@@ -2423,7 +2669,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::2hB2Q7PKATXP8JX4',
+        'as' => 'generated::7tMWKRfJykbc5wc1',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2979,7 +3225,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::ghbwt8XuTNanI3fv' => 
+    'generated::MuqpGftuA1xcbxcy' => 
     array (
       'methods' => 
       array (
@@ -2994,15 +3240,15 @@ app('router')->setCompiledRoutes(
           0 => 'api',
           1 => 'auth:api',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":291:{@RR7OZZvmLuJ8vf7xaCMQ9KvyZ+s3DC5Os0i0PmJIODM=.a:5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":291:{@or64HiagurSRP5Brl8HkG/0G9XVBbQVNbeEjLEWKUQ8=.a:5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000288ccff0000000016cdb41e";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003a0aeaae0000000078e91b56";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::ghbwt8XuTNanI3fv',
+        'as' => 'generated::MuqpGftuA1xcbxcy',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3017,7 +3263,7 @@ app('router')->setCompiledRoutes(
       'lockSeconds' => NULL,
       'waitSeconds' => NULL,
     ),
-    'generated::vzA38qOpSzO8Aj6o' => 
+    'generated::014d0w1y3yXKf2IK' => 
     array (
       'methods' => 
       array (
@@ -3037,7 +3283,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::vzA38qOpSzO8Aj6o',
+        'as' => 'generated::014d0w1y3yXKf2IK',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3066,10 +3312,10 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":309:{@61Ded2LuJYblXupf1Rd1rxFY/4b+R1A5K84Bpcv7xfQ=.a:5:{s:3:"use";a:0:{}s:8:"function";s:97:"function($lang){
+        'uses' => 'C:32:"Opis\\Closure\\SerializableClosure":309:{@HGCAb7XSO1I2CUQdik55OQhjUczFCvYKL5nEI34ZnCs=.a:5:{s:3:"use";a:0:{}s:8:"function";s:97:"function($lang){
        \\Session::put(\'locale\',$lang);
        return \\redirect()->back();   
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000288ccfa0000000016cdb41e";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000003a0aeaa10000000078e91b56";}}',
         'namespace' => NULL,
         'prefix' => NULL,
         'where' => 
@@ -3299,6 +3545,456 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'profile.update',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'departments.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/setting/departments/index',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DepartmentController@index',
+        'controller' => 'App\\Http\\Controllers\\DepartmentController@index',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'departments.index',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'departments.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/setting/departments/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DepartmentController@create',
+        'controller' => 'App\\Http\\Controllers\\DepartmentController@create',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'departments.create',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'departments.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/setting/departments/store',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DepartmentController@store',
+        'controller' => 'App\\Http\\Controllers\\DepartmentController@store',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'departments.store',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'departments.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/setting/departments/edit/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DepartmentController@edit',
+        'controller' => 'App\\Http\\Controllers\\DepartmentController@edit',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'departments.edit',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'departments.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/setting/departments/update/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DepartmentController@update',
+        'controller' => 'App\\Http\\Controllers\\DepartmentController@update',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'departments.update',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'departments.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/setting/departments/destroy',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DepartmentController@destroy',
+        'controller' => 'App\\Http\\Controllers\\DepartmentController@destroy',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'departments.destroy',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'doctors.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/setting/doctors/index',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DoctorController@index',
+        'controller' => 'App\\Http\\Controllers\\DoctorController@index',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'doctors.index',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'doctors.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/setting/doctors/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DoctorController@create',
+        'controller' => 'App\\Http\\Controllers\\DoctorController@create',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'doctors.create',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'doctors.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/setting/doctors/store',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DoctorController@store',
+        'controller' => 'App\\Http\\Controllers\\DoctorController@store',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'doctors.store',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'doctors.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/setting/doctors/edit/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DoctorController@edit',
+        'controller' => 'App\\Http\\Controllers\\DoctorController@edit',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'doctors.edit',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'doctors.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/setting/doctors/update/{id}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DoctorController@update',
+        'controller' => 'App\\Http\\Controllers\\DoctorController@update',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'doctors.update',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+    ),
+    'doctors.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/setting/doctors/destroy',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'language',
+          2 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DoctorController@destroy',
+        'controller' => 'App\\Http\\Controllers\\DoctorController@destroy',
+        'namespace' => NULL,
+        'prefix' => 'admin/setting',
+        'where' => 
+        array (
+        ),
+        'as' => 'doctors.destroy',
       ),
       'fallback' => false,
       'defaults' => 

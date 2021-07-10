@@ -30,7 +30,7 @@
 
                         @if(str_contains(Auth::user()->getRoleCodes(), 'admin'))
                             
-                            @canany(['user-list','role-list','permission-list','user-activity','log-list'])
+                            @canany(['user-list','doctor-list','department-list','role-list','permission-list','user-activity','log-list'])
 
                                 <li class="list-divider"></li>
 
@@ -42,6 +42,24 @@
                                     </a>
 
                                     <ul aria-expanded="false" class="collapse  first-level base-level-line {{ (request()->is('admin/setting*')) ? 'in' : '' }}">
+
+                                        @can('department-list')
+                                            <li class="sidebar-item {{ (request()->is('admin/setting/user*')) ? 'active' : '' }}">
+                                                <a href="{{ route('departments.index') }}" title="{{__('sidebar.department')}}" class="sidebar-link {{ (request()->is('admin/setting/user*')) ? 'active' : '' }}">
+                                                    {{-- <i data-feather="users" class="feather-icon"></i> --}}
+                                                    <span class="hide-menu">{{__('sidebar.department')}}</span>
+                                                </a>
+                                            </li>
+                                        @endcan
+                                        
+                                        @can('doctor-list')
+                                            <li class="sidebar-item {{ (request()->is('admin/setting/user*')) ? 'active' : '' }}">
+                                                <a href="{{ route('doctors.index') }}" title="{{__('sidebar.doctor')}}" class="sidebar-link {{ (request()->is('admin/setting/user*')) ? 'active' : '' }}">
+                                                    {{-- <i data-feather="users" class="feather-icon"></i> --}}
+                                                    <span class="hide-menu">{{__('sidebar.doctor')}}</span>
+                                                </a>
+                                            </li>
+                                        @endcan
 
                                         @can('user-list')
                                             <li class="sidebar-item {{ (request()->is('admin/setting/user*')) ? 'active' : '' }}">

@@ -38,6 +38,25 @@ Route::group(['middleware'=>'language'],function ()
 			Route::post('/profile/update', 			[App\Http\Controllers\UserController::class, 'profile_update'])->name('profile.update');
 
 			Route::prefix('setting')->group(function () {
+
+				//department
+				Route::get('/departments/index', 			[App\Http\Controllers\DepartmentController::class, 'index'])->name('departments.index');
+				Route::get('/departments/create', 			[App\Http\Controllers\DepartmentController::class, 'create'])->name('departments.create');				
+				Route::post('/departments/store', 			[App\Http\Controllers\DepartmentController::class, 'store'])->name('departments.store');				
+				Route::get('/departments/edit/{id}', 		[App\Http\Controllers\DepartmentController::class, 'edit'])->name('departments.edit');
+				Route::post('/departments/update/{id}', 	[App\Http\Controllers\DepartmentController::class, 'update'])->name('departments.update');
+				Route::post('/departments/destroy', 		[App\Http\Controllers\DepartmentController::class, 'destroy'])->name('departments.destroy');
+
+
+				//doctor
+				Route::get('/doctors/index', 			[App\Http\Controllers\DoctorController::class, 'index'])->name('doctors.index');
+				Route::get('/doctors/create', 			[App\Http\Controllers\DoctorController::class, 'create'])->name('doctors.create');
+				Route::post('/doctors/store', 			[App\Http\Controllers\DoctorController::class, 'store'])->name('doctors.store');
+				Route::get('/doctors/edit/{id}', 		[App\Http\Controllers\DoctorController::class, 'edit'])->name('doctors.edit');
+				Route::post('/doctors/update/{id}', 	[App\Http\Controllers\DoctorController::class, 'update'])->name('doctors.update');
+				Route::post('/doctors/destroy', 		[App\Http\Controllers\DoctorController::class, 'destroy'])->name('doctors.destroy');
+
+
 			    // User
 				Route::get('/users/index', 				[App\Http\Controllers\UserController::class, 'index'])->name('users.index');
 				Route::get('/users/create', 			[App\Http\Controllers\UserController::class, 'create'])->name('users.create');

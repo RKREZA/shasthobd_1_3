@@ -16,7 +16,7 @@
                         <a href="{{ route('dashboard') }}">
                             
                             <span class="logo-text" style="font-weight: 600">
-                                <img src="{{ asset('assets/images/logo.png') }}" alt="homepage" class="dark-logo" />
+                                <img src="{{ asset('assets/images/s-logo.png') }}" alt="homepage" class="dark-logo" />
                             </span>
                         </a>
                     </div>
